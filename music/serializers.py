@@ -32,6 +32,12 @@ class AlbomSerializer(ModelSerializer):
         model = Albom
         fields = '__all__'
 
+class AlbomPostSerializer(ModelSerializer):
+    class Meta:
+        model = Albom
+        fields = '__all__'
+
+
 
 class QoshiqchioPostSerializer(ModelSerializer):
     class Meta:
